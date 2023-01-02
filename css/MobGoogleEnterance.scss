@@ -13,21 +13,20 @@
         right: 72px !important;
     }
 }
-@media(max-width: 1097px){
-    .GoogleEntrance-main-left{
-        left: 30px !important;
+// @media(max-width: 1097px){
+//     .GoogleEntrance-main-left{
+//         left: 30px !important;
         
-    }
-    .GoogleEntrance-main-right{
-        right: 30px !important;
-    }
-}
+//     }
+//     .GoogleEntrance-main-right{
+//         right: 30px !important;
+//     }
+// }
 @media(max-width: 1002px){
     .GoogleEntrance-main{
         justify-content: center !important;}
-    .GoogleEntrance-main-right{
-        right: 150px !important;
-        padding-right: 30px !important;
+    .GoogleEntrance-main-left{
+        left: 0 !important;
     }
     .GoogleEntrance-main-right{display: none !important;}
 }
