@@ -1,0 +1,21 @@
+/* Light */
+
+@font-face {
+  font-family: "HouschkaProLight";
+  src: url("../fonts/HouschkaPro-Light.ttf") format("truetype"),
+    url("../fonts/HouschkaPro-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HouschkaPro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Medium */
+
+@font-face {
+  font-family: "HouschkaProMedium";
+  src: url("../fonts/HouschkaPro-Medium.ttf") format("truetype"),
+    url("../fonts/HouschkaPro-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HouschkaPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}

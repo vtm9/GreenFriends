@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "HouschkaProMedium";
+    cursor: default;
+}
+
+.GoogleEntrance-header {
+    height: 68px;
+    background: #e9e9e9;
+
+    .GoogleEntrance-header-txtAndform {
+        display: flex;
+        justify-content: space-between;
+        height: 68px;
+        align-items: center;
+
+        .GoogleEntrance-text {
+            position: relative;
+            height: 26px;
+            width: 148px;
+            left: 150px;
+            font-family: "HouschkaProLight";
+        }
+
+        .GoogleEntrance-form {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            right: 150px;
+
+            .button-SignUp {
+                text-decoration: none;
+                position: relative;
+                background-color: #69876a;
+                color: #F4F6F3;
+                border-radius: 10px;
+                border: none;
+                width: 164px;
+                height: 35px;
+                right: 17px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .button-LogIn {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 75px;
+                height: 35px;
+                border: 1px solid #69876a;
+                color: #69876a;
+                border-radius: 10px;
+                background: #e9e9e9;
+                cursor: pointer;
+            }
+        }
+    }
+}
+body{
+    background-color: #f4f6f3;
+}
+
+.GoogleEntrance-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 121px;
+
+    .GoogleEntrance-main-left {
+        z-index: 1;
+        position: relative;
+        left: 151px;
+        height: 714px;
+        width: 463px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        border: 1px solid #69876A;
+        background-color: #f4f6f3;
+        // box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 0.8);
+        // box-shadow: 4px 10px 20px 0px rgba(213, 222, 221, 0.8);
+
+        .GoogleEntrance-figure-top {
+            display: flex;
+            justify-content: flex-start;
+            height: 48px;
+
+            .GoogleEntrance-figure-GoogleLogo {
+                position: relative;
+                left: 15px;
+                height: 24px;
+                width: 24px;
+                margin-top: 12px;
+            }
+
+            .GoogleEntrance-figure-GoogleText {
+                position: relative;
+                left: 30px;
+                margin-top: 17px;
+                height: 15px;
+                size: 15px;
+                font-size: 15px;
+            }
+        }
+
+        .line {
+            border-bottom: 1px solid #69876a;
+            width: 463px;
+        }
+
+        .GoogleEntrance-main-belowLineText {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .BigEntrance-text {
+                position: relative;
+                height: 30px;
+                width: 301px;
+                left: 82px;
+                margin-top: 79px;
+                font-family: "HouschkaProLight";
+                color: #3F3F3F;
+                font-size: 40px
+            }
+
+            .AverageEntrance-text {
+                position: relative;
+                left: 153px;
+                width: 160px;
+                height: 20px;
+                margin-top: 30px;
+                font-family: "HouschkaProLight";
+                font-size: 20px;
+            }
+
+            .Small-Entrance-text {
+                margin-top: 15px;
+                position: relative;
+                left: 84px;
+                font-size: 15px;
+
+                .Small-Entrance-GreenText {
+                    color: #698783;
+                }
+            }
+
+            .GoogleEntrance-buttons {
+                position: relative;
+                margin-top: 46px;
+                margin-left: 37px;
+
+                .GoogleEntrance-buttons-form {
+                    display: flex;
+                    flex-direction: column;
+
+                    .GoogleEntrance-button-form-1 {
+                        width: 390px;
+                        height: 55px;
+                        background-color: #DDE2DC;
+                        border-radius: 10px;
+                        border: 0;
+                        cursor: pointer;
+                        // box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 0.8);
+                        // box-shadow: 4px 10px 20px 0px rgba(213, 222, 221, 0.8);
+                    }
+
+                    .GoogleEntrance-button-form-2 {
+                        width: 390px;
+                        height: 55px;
+                        background-color: #DDE2DC;
+                        border-radius: 10px;
+                        border: 0;
+                        margin-top: 31px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        cursor: pointer;
+                        // box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 0.8);
+                        // box-shadow: 4px 10px 20px 0px rgba(213, 222, 221, 0.8);
+
+                        .GoogleEntrance-button-form-2-logo {
+                            position: relative;
+                            left: 10px;
+                            cursor: pointer;
+                        }
+
+                        .GoogleEntrance-button-form-2-text {
+                            position: relative;
+                            left: 19px;
+                            font-size: 15px;
+                            color: #3F3F3F;
+                            font-weight: 550;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .GoogleEntrance-confidentiality-Block {
+                width: 390px;
+                margin-left: 37px;
+                margin-top: 47px;
+                .GoogleEntrance-confidentiality {
+                    width: 390px;
+                    height: 88px;
+                    font-family: "HouschkaProLight";
+                    font-size: 15px;
+                    color: #3F3F3FCC;
+                    line-height: 100%;
+
+                    .GoogleEntrance-confidentiality-GreenText {
+                        color: #69876a;
+                        font-size: 15px;
+                        opacity: 0.8;
+                        cursor: pointer;
+                    }
+                }
+                .GoogleEntrance-confidentiality-GreenLine {
+                    border-bottom: 1px solid #69876a;
+                    width: 390px;
+                    height: 1px;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+                .GoogleEntrance-main-bottomForm{
+                    display: flex;
+                    justify-content: flex-start;
+                    font-size: 15px;
+                    background-color: #F4F6F3;
+
+                    .GoogleEntrance-main-Left-select{
+                        line-height: 18px;
+                        border: 0;
+                        background-color: #F4F6F3;
+                        color: #69876A;
+                        font-size: 15px;
+                        cursor: pointer;
+                    }
+                    .GoogleEntrance-confidentiality-AdditionalInformation{
+                        margin-left: 43px;
+                        
+                        .GoogleEntrance-confidentiality-AdditionalInformation-form{
+                            display: flex;
+                            justify-content: flex-start;
+                            .Help{
+                            margin-right: 9px;
+                            border: 0;
+                            color: #69876A;
+                            background-color: #F4F6F3;
+                            font-size: 15px;
+                            cursor: pointer;
+                            }
+                            .btn-Confidentiality{
+                                border: 0;
+                                color: #69876A;
+                                background-color: #F4F6F3;
+                                font-size: 15px;
+                                cursor: pointer;
+                            }
+                            .Conditions{
+                            margin-left: 9px;
+                            border: 0;
+                            color: #69876A;
+                            background-color: #F4F6F3;
+                            font-size: 15px;
+                            cursor: pointer;
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    .GoogleEntrance-main-right{
+        position: relative;
+        right: 150px;
+        z-index: 0;
+    }
+}
